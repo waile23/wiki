@@ -5,7 +5,7 @@
 
 ###vim基本设置
 下面几个设置可以满足日常需要，缩进主要是为了编写python,nodejs时用的。
-'''
+```vim
 "设置缩进 
 set tabstop=4          "设定tab宽度为4个字符
 set shiftwidth=4       "设定自动缩进为4个字符
@@ -22,7 +22,7 @@ inoremap ( ()<LEFT>
 inoremap [ []<LEFT>
 inoremap { {}<LEFT>
 
-'''
+```
 
 
 ###vim积累
