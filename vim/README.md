@@ -21,6 +21,12 @@ set encoding=utf-8     "设置 字符集
 inoremap ( ()<LEFT>
 inoremap [ []<LEFT>
 inoremap { {}<LEFT>
+
+"map <C-n> :NERDTreeToggle<CR>
+map <C-s> :w
+imap <C-I> <Esc>
+
+
 ```
 
 
