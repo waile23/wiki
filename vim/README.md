@@ -23,8 +23,7 @@ inoremap [ []<LEFT>
 inoremap { {}<LEFT>
 
 "map <C-n> :NERDTreeToggle<CR>
-map <C-s> :w
-imap <C-I> <Esc>
+
 
 
 ```
