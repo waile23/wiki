@@ -2,7 +2,9 @@
 
 
 Git内都只有三种状态：已修改（modified），已暂存（staged）和已提交（committed）。已修改表示修改了某个文件，但还没有提交保存；已暂存表示把已修改的文件放在下次提交时要保存的清单中；已提交表示该文件已经被安全地保存在本地数据库中了。
+
 对应三个工作区域：Git 的工作目录，暂存区域，以及本地仓库。
+
 所谓的暂存区域只不过是个简单的文件，一般都放在 Git 目录中。有时候人们会把这个文件叫做索引文件，不过标准说法还是叫暂存区域。	
 
 基本的 Git 工作流程如下：
@@ -12,7 +14,7 @@ Git内都只有三种状态：已修改（modified），已暂存（staged）和已提交（committed）。
 
 我们可以从文件所处的位置来判断状态：如果是Git目录中保存着的特定版本文件，就属于已提交状态；如果作了修改并已放入暂存区域，就属于已暂存状态；如果自上次取出后，作了修改但还没有放到暂存区域，就是已修改状态。
 
-''' bash
+``` bash
 #设置全局的用户名及邮箱
 $ git config --global user.name waile23
 $ git config --global user.email waile23@163.com
@@ -70,7 +72,8 @@ $ git push --tags #上传所有标签
 #生成ssh key
 ssh-keygen -t rsa -C "邮箱"  #生成ssh key，然后根据提示连续回车即可在~/.ssh目录下得到id_rsa和id_rsa.pub两个文件，id_rsa.pub文件里存放的就是我们要使用的key。
 ssh -T git@github.com #测试是否配置成功
-'''
+```
 
 ##参考
-[https://gitcafe.com/GitCafe/Help/wiki/Git-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8#wiki](来源)
+
+[来源](https://gitcafe.com/GitCafe/Help/wiki/Git-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8#wiki)
