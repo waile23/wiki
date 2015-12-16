@@ -1,0 +1,16 @@
+#npm插件
+
+
+##npm
+n 管理多个node版本
+nrm 切换npm源
+
+
+
+### express相关
+cors-express
+cors
+
+
+
+
