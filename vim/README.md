@@ -45,6 +45,7 @@ inoremap { {}<LEFT>
 `iw`  
 `aw`  
 `quickfix`中的命令
+`:Ve 20` 按20%的比例打开目录列表， shift+p(大写P)不在当前目录窗口打开文件。  
 
 ###vim外部剪贴板
 
