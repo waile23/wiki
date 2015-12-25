@@ -1,6 +1,8 @@
 #linux常用命令
 
-
+##帮助
+`man 命令`
+`tldr 命令` too long, don't read，太长不读。
 
 ##查寻与替换
 
