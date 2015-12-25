@@ -1,4 +1,4 @@
-#git常见问题
+#git甯歌闂
 
 
 1. Remote rejected(shallow update not allowed)
