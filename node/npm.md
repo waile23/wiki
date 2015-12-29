@@ -13,7 +13,7 @@ cors
 
 
 ### phantomjs
-npm install -g phantomjs --phantomjs_cdnurl=http://cnpmjs.org/downloads
+`npm install phantomjs --phantomjs_cdnurl=http://cnpmjs.org/downloads`
 
 
 
