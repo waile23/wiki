@@ -83,6 +83,8 @@ inoremap { {}<LEFT>
 ###vim插件
 1. vim插件管理器vundle
 
+
 ###vim应用
 1. chrome下的vim插件[vimium](vimium.md)
-1. eclipse下的vim插件
+1. eclipse下的vim插件  
+1. nodepad++下的vim插件[visimulator](visimulator.zip)  
