@@ -1,16 +1,19 @@
-#npm²å¼ş
+#npmæ’ä»¶
 
 
 ##npm
-n ¹ÜÀí¶à¸önode°æ±¾
-nrm ÇĞ»»npmÔ´
+n ç®¡ç†å¤šä¸ªnodeç‰ˆæœ¬
+nrm åˆ‡æ¢npmæº
 
 
 
-### expressÏà¹Ø
+### expressç›¸å…³
 cors-express
 cors
 
+
+### phantomjs
+npm install -g phantomjs --phantomjs_cdnurl=http://cnpmjs.org/downloads
 
 
 
