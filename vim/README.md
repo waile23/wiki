@@ -88,3 +88,22 @@ inoremap { {}<LEFT>
 1. chrome下的vim插件[vimium](vimium.md)
 1. eclipse下的vim插件  
 1. nodepad++下的vim插件[visimulator](visimulator.zip)  
+
+
+###解决gvim中文乱码的问题
+```
+set guifont=Consolas:h12:cANSI
+set encoding=utf-8
+set fileencodings=utf-8,chinese
+set termencoding=utf-8
+if has("win32")
+set fileencoding=chinese
+else
+set fileencoding=utf-8
+endif
+"解决菜单乱码
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
+"解决consle输出乱码
+language messages zh_CN.utf-8
+```
