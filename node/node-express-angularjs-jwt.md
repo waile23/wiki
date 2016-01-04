@@ -1,21 +1,22 @@
-##在MEAN应用中使用JWT进行token认证
+#在MEAN应用中使用JWT进行token认证
 
+##环境
 - nodejs
 - express
 - angularjs
 
-node中使用的组件
+###node中使用的组件
 
 - jwt
 - passport
 - passport-local
 - express-jwt
 
-
-anularjs中使用的插件
+###anularjs中使用的插件
 - angular-jwt
-- 
-###原理
+
+##原理
+
 使用jsonwebtoken的生成jwt并验证jwt
 
 ``` javascript
