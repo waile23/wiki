@@ -18,7 +18,7 @@ anularjs中使用的插件
 ###原理
 使用jsonwebtoken的生成jwt并验证jwt
 
-``` nodejs
+``` javascript
 
 'use strict'
 
