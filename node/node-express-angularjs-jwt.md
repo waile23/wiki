@@ -57,8 +57,11 @@ console.log('decoded60mins is: ' + JSON.stringify(decoded60mins));
 
 ```
 
-###客户端
+####client-side
 angularjs使用angular-jwt插件的jwt拦截器，在每次请求url是在header中写入token信息。
+
+
+
 
 
 
