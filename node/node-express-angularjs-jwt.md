@@ -5,19 +5,20 @@
 - express
 - angularjs
 
-###node中使用的组件
+####node中使用的组件
 
 - jwt
 - passport
 - passport-local
 - express-jwt
 
-###anularjs中使用的插件
+####anularjs中使用的插件
 - angular-jwt
 
 ##原理
 
-使用jsonwebtoken的生成jwt并验证jwt
+####server
+使用jsonwebtoken生成jwt和验证jwt来实现对token处理。
 
 ``` javascript
 
@@ -56,6 +57,8 @@ console.log('decoded60mins is: ' + JSON.stringify(decoded60mins));
 
 ```
 
+###客户端
+angularjs使用angular-jwt插件的jwt拦截器，在每次请求url是在header中写入token信息。
 
 
 
