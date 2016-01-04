@@ -3,3 +3,6 @@
 
 * [linux](linux/README.md)
 * [vim](vim/README.md)
+* [node](node/README.md)
+* [spark](spark/README.md)
+* [python](python/README.md)
