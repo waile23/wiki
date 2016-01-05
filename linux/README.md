@@ -1,6 +1,6 @@
 #Linux
 
-- 常用命令
+- [常用命令](linux-common.md)
 - [linux下设置IP](ip.md)
 - Apache相关
 - 删除的一些操作
@@ -23,5 +23,5 @@
 - apt-get命令
 - ubuntu源列表
 - iptables
-- git速查表
+- [git速查表](git.md)
 
