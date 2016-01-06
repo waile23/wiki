@@ -23,14 +23,14 @@
 删除.svn文件
 
 ```
-find . -type d -name ".svn"|xargs rm -rf
+find . -type d -name '.svn'|xargs rm -rf
 ```
 或
 
 ```
-find . -type d -iname ‘.svn’ -exec rm -rf {} \;
+find . -type d -i name '.svn' -exec rm -rf {} \;
 ```
-`-iname` 同`-name`区别： `-i` 忽略大小写
+ `-i` 忽略大小写
 
 ##修改时区
 ```
