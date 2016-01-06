@@ -18,7 +18,19 @@
 替换  
  ` sudo grep 'abc' -rl /home/plusdo/ | xargs sed -i "s/abc/xyz/g" ` 
 
+##删除
 
+删除.svn文件
+
+```
+find . -type d -name ".svn"|xargs rm -rf
+```
+或
+
+```
+find . -type d -iname ‘.svn’ -exec rm -rf {} \;
+```
+`-iname` 同`-name`区别： `-i` 忽略大小写
 
 ##修改时区
 ```
