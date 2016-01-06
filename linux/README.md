@@ -2,8 +2,7 @@
 
 - [常用命令](linux-common.md)
 - [linux下设置IP](ip.md)
-- Apache相关
-- 删除的一些操作
+- [Apache相关](apache.md)
 - putty常用
 - linux下的暂停
 - svn
