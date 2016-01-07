@@ -91,14 +91,25 @@ cn.pool.ntp.org是位于中国的公共NTP服务器，用来同步时间
 # cut -d: -f1 /etc/passwd   # 查看系统所有用户
 # cut -d: -f1 /etc/group    # 查看系统所有组
 # crontab -l             # 查看当前用户的计划任务
+# passwd username        #修改密码 
+
 ```
+####添加用户
+
+```sudo adduser plusdo(用户)```
+
+修改`/etc/sudoers`文件
+```
+# User privilege specification
+root    ALL=(ALL:ALL) ALL
+plusdo ALL=(ALL:ALL) ALL #此处是将plusdo设置成sudo用户
+```
+
 ##服务
 ```
 # chkconfig --list       # 列出所有系统服务
 # chkconfig --list | grep on    # 列出所有启动的系统服务
 ```
-
-
 
 ##参考 
 

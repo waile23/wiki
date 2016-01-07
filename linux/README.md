@@ -8,8 +8,6 @@
 - svn
 - 压缩解压缩
 - su
-- passwd
-- add sudo user
 - linux监控工具
 - crontab定时任务
 - w3m浏览器
