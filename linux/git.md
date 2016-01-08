@@ -28,6 +28,7 @@ $ git status #查看状态
 $ git diff #查看变更内容
 $ git add . #将所有已修改的文件保存到暂存区，文件变为已暂存
 $ git add <file> #将指定的已修改的文件保存到暂存区，文件变为已暂存 
+$ git add -u #将所有已经修改的文件保存到暂存区，文件变为已暂存
 $ git commit -m “commit message” #提交已暂存文件
 $ git commit --amend #修改最后一次提交
 $ git rm <file> #取消git对文件的版本控制.
