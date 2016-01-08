@@ -24,8 +24,6 @@ inoremap { {}<LEFT>
 
 "map <C-n> :NERDTreeToggle<CR>
 
-
-
 ```
 
 
@@ -74,6 +72,7 @@ inoremap { {}<LEFT>
 --* `Ctrl+w+方向键`——切换到前／下／上／后一个窗格 
 --* `Ctrl+w+h/j/k/l` ——同上 
 --* `Ctrl+ww`——依次向后切换到下一个窗格中 
+--* `Ctrl+w+=/+/-`——处理窗格的大小 
 
 ####书签
 * 建立书签，局部书签`m+[a-z]`和全局书签`m+[A-Z]`。
@@ -82,7 +81,8 @@ inoremap { {}<LEFT>
 
 ###vim插件
 1. vim插件管理器vundle
-
+1. NERDTree  
+`C（大写 C ）`将光标所在目录设置为根目录。
 
 ###vim应用
 1. chrome下的vim插件[vimium](vimium.md)
