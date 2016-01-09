@@ -11,6 +11,7 @@
 - [直接下载](http://sourceforge.net/project/showfiles.php?group_id=56777)  
 - [在线学习](http://vimcdoc.sourceforge.net/doc/)
 - [中文手册项目地址](http://sourceforge.net/projects/vimcdoc/)  
+- [gvim中文帮助](http://sourceforge.net/projects/vimcdoc/files/win32-install/)可替换原英文帮助  
 
 
 把一些基本的内容记录在这里以备不时之需。
