@@ -2,6 +2,9 @@
 
 一直用着vim,喜欢vim提供的基本功能，对网上提供的各种插件，各种配置的方式不是特别感兴趣，vim自带的功能都没有都用好,不过多在工具上耽误过多的时间。
 
+###入门
+看完[vim入门](vimtutor.md)基本就可以掌握VIM的基本应用了。
+
 ###学习
 使用`:help`命令其实就可以学习大部分内容，也可以使用`:help subjuect`对进入相关的帮助。
 
@@ -25,10 +28,8 @@ set shiftwidth=4       "设定自动缩进为4个字符
 set expandtab          "用space替代tab的输入
 set nu                 "显示行号
  
- 
 set noexpandtab        "不用space替代tab的输入
 set encoding=utf-8     "设置 字符集
- 
  
 " 插入匹配括号
 inoremap ( ()<LEFT>
@@ -36,13 +37,7 @@ inoremap [ []<LEFT>
 inoremap { {}<LEFT>
 
 "map <C-n> :NERDTreeToggle<CR> "NERDTree插件的快捷键
-
 ```
-
-###vim积累
-1. 看完[vim入门](vimtutor.md)基本就可以掌握VIM的基本应用了。
-1. [查找和替换](vim查找和替换.md)
-
 ###vim常用操作
 `.` 重复上一次修改，非常好用  
 `cw` 替换整个字体 和`.`一起使用
@@ -53,6 +48,10 @@ inoremap { {}<LEFT>
 `aw`  
 `quickfix`中的命令
 `:Ve 20` 按20%的比例打开目录列表， shift+p(大写P)不在当前目录窗口打开文件。  
+
+###查找与替换
+
+[查找和替换](vim查找和替换.md)
 
 ###vim外部剪贴板
 
