@@ -49,6 +49,27 @@ inoremap { {}<LEFT>
 `quickfix`中的命令
 `:Ve 20` 按20%的比例打开目录列表， shift+p(大写P)不在当前目录窗口打开文件。  
 
+###移动
+w e b ge f t ^ $ 0 hh G 
+
+
+%
+
+CTRL-O 命令则跳到一个 "较老" 的地方 (提
+示:  O 表示 older)。CTRL-I 则跳到一个 "较新" 的地方 (提示: I 在键盘上紧靠着O)。
+
+
+
+             |  example text   ^             |
+        33G  |  example text   |  CTRL-O     | CTRL-I
+             |  example text   |             |
+             V  line 33 text   ^             V
+             |  example text   |             |
+       /^The |  example text   |  CTRL-O     | CTRL-I
+             V  There you are  |             V
+                example text
+
+
 ###查找与替换
 
 [查找和替换](vim查找和替换.md)
