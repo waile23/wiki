@@ -30,6 +30,9 @@ set nu                 "显示行号
  
 set noexpandtab        "不用space替代tab的输入
 set encoding=utf-8     "设置 字符集
+
+setlocal cm=blowfish   "设置Blowfish加密算法
+"setlocal cm=blowfish2     " best (requires Vim version 7.4.399 or higher)
  
 " 插入匹配括号
 inoremap ( ()<LEFT>
@@ -66,6 +69,20 @@ inoremap { {}<LEFT>
        /^The |  example text   |  CTRL-O     | CTRL-I
              V  There you are  |             V
                 example text
+
+
+
+###翻页 
+
+整页翻页`ctrl-f ctrl-b`,`f`就`是forword` `b`就是`backward`。
+
+翻半页`ctrl-d ctlr-`  `d=down u=up`
+
+滚一行`ctrl-e ctrl-y`
+
+`zz`让光标所杂的行居屏幕中央  
+`zt`让光标所杂的行居屏幕最上一行`t=top` 
+`zb`让光标所杂的行居屏幕最下一行`b=bottom` 
 
 
 ###查找与替换
@@ -133,6 +150,18 @@ esc回到Normal模式下，再按`q`结束宏录制。
 用户自定义补全方式              CTRL-X CTRL-U
 拼写建议                        CTRL-X CTRL-S 
 ```
+
+###加密
+
+- 编辑模式，输入`:X（大写）`，回车。
+- `$vim -x`启动文件是加密。
+
+vim7.3版本支持两种加密方式——PKzip算法（已知有缺陷的）、Blowfish算法（从7.3版本开始支持）。  
+vim7.4版本支持Blowfish2算法。  
+vim -x 默认采用PKzip算法加密。  
+以通过`:setlocal cm=blowfish`设置加密算法。  
+
+
 
 ###vim插件
 1. vim插件管理器vundle
