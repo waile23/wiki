@@ -32,7 +32,7 @@ set noexpandtab        "不用space替代tab的输入
 set encoding=utf-8     "设置 字符集
 
 setlocal cm=blowfish   "设置Blowfish加密算法
-"setlocal cm=blowfish2     " best (requires Vim version 7.4.399 or higher)
+"setlocal cm=blowfish2 " best (requires Vim version 7.4.399 or higher)
  
 " 插入匹配括号
 inoremap ( ()<LEFT>
@@ -109,18 +109,16 @@ inoremap { {}<LEFT>
 同时显示多个文件：`:split`、`:vsplit`
 
 在文件之间切换： 
---* 文件间切换 `CTRL+6`—下一个文件 
---* `:bn`—下一个文件 
---* `:bp`—上一个文件 
+--* 文件间切换 `CTRL+6`—下一个文件  
+--* `:bn`—下一个文件  
+--* `:bp`—上一个文件  
+对于用`(v)split`在多个窗格中打开的文件，这种方法只会在当前窗格中切换不同的文件。  
 
-
-对于用`(v)split`在多个窗格中打开的文件，这种方法只会在当前窗格中切换不同的文件。
-
-1. 在窗格间切换的方法 
---* `CTRL+w+方向键`——切换到前／下／上／后一个窗格 
---* `CTRL+w+h/j/k/l` ——同上 
---* `CTRL+ww`——依次向后切换到下一个窗格中 
---* `CTRL+w+=/+/-`——处理窗格的大小 
+1. 在窗格间切换的方法  
+--* `CTRL+w+方向键`——切换到前／下／上／后一个窗格  
+--* `CTRL+w+h/j/k/l` ——同上  
+--* `CTRL+ww`——依次向后切换到下一个窗格中  
+--* `CTRL+w+=/+/-`——处理窗格的大小  
 
 ###宏
 在Normal模式下，按`qa`（q表示开始录制宏，宏的名字为a，也可以是b,c…）开始录制。  
