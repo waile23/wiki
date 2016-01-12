@@ -111,6 +111,18 @@ plusdo ALL=(ALL:ALL) ALL #此处是将plusdo设置成sudo用户
 # chkconfig --list | grep on    # 列出所有启动的系统服务
 ```
 
+##iptables打开ip端口
+
+```
+#打开配置文件加入如下语句: vi /etc/sysconfig/iptables  
+
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
+
+#重启防火墙，修改完成
+ service iptables restart
+
+```
+
 ##参考 
 
 http://www.ha97.com/981.html
