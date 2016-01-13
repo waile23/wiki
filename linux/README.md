@@ -3,8 +3,7 @@
 - [常用命令](linux-common.md)
 - [linux下设置IP](ip.md)
 - [Apache相关](apache.md)
-- putty常用
-- linux下的暂停
+- [putty](putty.md)
 - 压缩解压缩
 - su
 - linux监控工具
