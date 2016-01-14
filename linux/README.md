@@ -4,7 +4,6 @@
 - [linux下设置IP](ip.md)
 - [Apache相关](apache.md)
 - [putty](putty.md)
-- 压缩解压缩
 - su
 - linux监控工具
 - crontab定时任务
