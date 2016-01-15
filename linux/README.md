@@ -4,7 +4,7 @@
 - [linux下设置IP](ip.md)
 - [Apache相关](apache.md)
 - [putty](putty.md)
-- su
+- [su](su.md)
 - linux监控工具
 - crontab定时任务
 - w3m浏览器
