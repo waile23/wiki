@@ -18,6 +18,39 @@
 替换  
  ` sudo grep 'abc' -rl /home/plusdo/ | xargs sed -i "s/abc/xyz/g" ` 
 
+##tar
+
+```
+# tar [-j|-z] [cv] [-f] filename… 打包与压缩  
+# tar [-j|-z] [tv] [-f] 查看  
+# tar [-j|-z] [xv] [-f] [-C 目录] 解压缩  
+
+压 缩:tar -zcv -f filename.tar.gz 要被压缩的档案或目录名称  
+查 询:tar -ztv -f filename.tar.gz  
+解压缩:tar -jxv -f filename.tar.gz -C 欲解压缩的目录  
+```
+
+参数:  
+```
+-c :建立打包档案,可搭配 -v 来察看过程中被打包的档名(filename)  
+-t :察看打包档案的内容含有哪些文档名,重点在察看『文档名』就是了;  
+-x :解打包戒解压缩的功能,可以搭配 -C (大写) 在特定目录解开特别留意的是, -c, -t, -x 不可同时出现在一串指令列中。  
+-j :透过 bzip2 的支持迚行压缩/解压缩:此时文档名最好为 *.tar.bz2  
+-z :透过 gzip 的支持迚行压缩/解压缩:此时文档名最好为 *.tar.gz  
+-v :在压缩/解压缩的过程中,将正在处理的文件名显示出来!  
+-f filename:-f 后面要立刻接要被处理的档名!建议 -f 单独写一个选项。  
+-C 目录:这个选顷用在解压缩,若要在特定目录解压缩,可以使用这个选项  
+-p :保留备份数据的原本权限不属性,常用于备份(-c)重要的配置文件  
+-P :保留绝对路径,亦即允讲备份数据中含有根目录存在之意;  
+–exclude=FILE:在压缩的过程中,不要将 FILE 打包。  
+```
+
+tip:经常备份一下etc目录：   
+
+```
+tar -zpcv -f /root/etc.tar.gz /etc 备份  
+tar -jpcv -f /root/etc.tar.bz2 /etc 查看  
+```
 ##删除
 
 删除.svn文件
