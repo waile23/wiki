@@ -1,4 +1,4 @@
-#linux常用命令
+﻿#linux常用命令
 
 ##帮助
 `man 命令`
@@ -69,7 +69,7 @@ find . -type d -i name '.svn' -exec rm -rf {} \;
 ```
 > tzselect 按照提示进行选择时区  
 > sudo cp /usr/share/zoneinfo/Asia/ShangHai /etc/localtime  
-> sudo ntpdate cn.pool.ntp.rg   
+> sudo ntpdate cn.pool.ntp.org   
 cn.pool.ntp.org是位于中国的公共NTP服务器，用来同步时间  
 ```
 
