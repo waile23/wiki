@@ -14,7 +14,7 @@
 - 修改ssh端口
 - chmod命令
 - [apt-get命令](apt-get.md)
-- ubuntu源列表
+- [ubuntu源列表](ubuntu-source.md)
 - iptables
 - [git速查表](git.md)
 
