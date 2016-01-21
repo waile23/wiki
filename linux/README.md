@@ -11,7 +11,7 @@
 - grep详解
 - linux下ftp使用
 - wget使用
-- 修改ssh端口
+- [ssh相关](ssh.md)
 - chmod命令
 - [apt-get命令](apt-get.md)
 - [ubuntu源列表](ubuntu-source.md)
