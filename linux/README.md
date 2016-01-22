@@ -10,7 +10,8 @@
 - w3m浏览器
 - grep详解
 - linux下ftp使用
-- wget使用
+- [curl](curl.md)
+- [wget](wget.md)
 - [ssh相关](ssh.md)
 - chmod命令
 - [apt-get命令](apt-get.md)
