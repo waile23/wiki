@@ -13,7 +13,7 @@
 - [curl](curl.md)
 - [wget](wget.md)
 - [ssh相关](ssh.md)
-- chmod命令
+- [chmod命令](chmod.md)
 - [apt-get命令](apt-get.md)
 - [ubuntu源列表](ubuntu-source.md)
 - iptables
