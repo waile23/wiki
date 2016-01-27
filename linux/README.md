@@ -5,7 +5,7 @@
 - [Apache相关](apache.md)
 - [putty](putty.md)
 - [su](su.md)
-- linux监控工具
+- [linux监控工具](monitoring.md)
 - [crontab定时任务](crontab.md)
 - [w3m浏览器](w3m.md)
 - [curl](curl.md)
@@ -15,8 +15,6 @@
 - [apt-get命令](apt-get.md)
 - [ubuntu源列表](ubuntu-source.md)
 - [git速查表](git.md)
-
-
 - [grep](grep.md)
 - [sed](sed.md)
 - [awk](awk.md)
