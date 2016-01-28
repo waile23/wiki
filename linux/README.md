@@ -19,3 +19,7 @@
 - [sed](sed.md)
 - [awk](awk.md)
 
+
+##常见问题
+
+- [bash xxx comand not found解决办法](command-not-found.md)
