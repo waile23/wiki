@@ -7,7 +7,7 @@ mysql> show variables like 'character%';
 mysql> show variables like 'collation_%';
 ```
 
-1. 修改配置文件：    
+1.修改配置文件：    
 ```
 shell> vi /etc/mysql/my.cnf     
 [client]     
@@ -20,12 +20,12 @@ init-connect=’SET NAMES utf8′
 character-set-server = utf8
 ```  
 
-2. 修改数据库： 
+2.修改数据库： 
 ```
 mysql>ALTER DATABASE db_name DEFAULT CHARACTER SET character_name [COLLATE ...];     
 ```
 
-3. 把表默认的字符集和所有字符列（CHAR,VARCHAR,TEXT）改为新的字符集：    
+3.把表默认的字符集和所有字符列（CHAR,VARCHAR,TEXT）改为新的字符集：    
 ```
  mysql>ALTER TABLE tbl_name CONVERT TO CHARACTER SET character_name [COLLATE ...]   
  mysql>ALTER TABLE logtest CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;     
@@ -38,13 +38,13 @@ mysql>ALTER DATABASE db_name DEFAULT CHARACTER SET character_name [COLLATE ...];
  mysql>ALTER TABLE logtest DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;   
 ``` 
 
-4. 修改字段的字符集：    
+4.修改字段的字符集：    
 ```
  mysql>ALTER TABLE tbl_name CHANGE c_name c_name CHARACTER SET character_name [COLLATE ...];    
  mysql>ALTER TABLE logtest CHANGE title title VARCHAR(100) CHARACTER SET utf8 COLLATE utf8_general_ci;   
 ``` 
 
-5. 临时更改连接字符集：
+5.临时更改连接字符集：
 ```
 mysql> SET NAMES utf8;    
 ```
