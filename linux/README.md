@@ -30,4 +30,5 @@
 
 - [利用dropbox备份vps上的数据与资源](dropbox-vps-backup.md)
 - [通过vps进行ssh代理上网](vps-proxy.md)
+- [常用服务器日志分析命令大全](linux-log-analyze.md)
 
