@@ -80,3 +80,5 @@ ssh -T git@github.com #测试是否配置成功
 ##参考
 
 [来源](https://gitcafe.com/GitCafe/Help/wiki/Git-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8#wiki)
+
+http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
