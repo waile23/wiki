@@ -49,7 +49,7 @@ $ git reset --hard <commit_id>(哈希值的前几个字符)彻底回退到某个
     git reset –soft：回退到某个版本，只回退了commit的信息，不会恢复到index file一级。如果还要提交，直接commit即可
     git reset –hard：彻底回退到某个版本，本地的源码也会变为上一个版本的内容
     
-$ git reset --hard <commit_id> 与 git push origin HEAD --force 合用，彻底回退到某个版本并提交服务器（删除指定版本）
+技巧： $ git reset --hard <commit_id> 与 git push origin HEAD --force 合用，彻底回退到某个版本并提交服务器（删除指定版本，在提交错误后可以使用该方法删除错误提交）
 
 #分支与标签
 $ git branch #显示所有本地分支
