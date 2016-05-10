@@ -36,19 +36,20 @@ $ git rm --cached <file> #取消git对文件的版本控制，-–cached选项�
 $ git mv <old> <new> #重命名文件（先删除旧文件，再添加新文件）（基本不用）。
 
 #撤消和重做
-$ git reset --hard HEAD #把工作目录中所有未提交(已修改，已暂存)的内容清空(当然这不包括未置于版控制下的文件 untracked files)。
-$ git reset --hard <commit>(哈希值的前几个字符)#撤消工作目录中所有未提交文件(已修改，已暂存)的修改内容
-$ git reset HEAD <file> #取消已暂存的文件。即，撤销先前"git add"的操作。
+
 $ git checkout HEAD <file> #撤消指定的未提交(已修改，已暂存)文件的修改内容，即保证工作目录中的状态与已提交状态一致。
-$ git revert <commit> #回滚至指定的提交
+$ git revert <commit> #回滚至指定的提交(还没弄明白)
 
-$ git reset --hard <commit_id> 与 git push origin HEAD --force 合用，彻底回退到某个版本并提交服务器（删除指定版本）
+$ git reset HEAD <file> #取消已暂存的文件。即，撤销先前"git add"的操作。
+$ git reset --hard HEAD #把工作目录中所有未提交(已修改，已暂存)的内容清空(当然这不包括未置于版控制下的文件 untracked files)。
+$ git reset --hard <commit_id>(哈希值的前几个字符)彻底回退到某个版本，本地的源码也会变为该版本的内容。
 
-    根据–soft –mixed –hard，会对working tree和index和HEAD进行重置:
+根据–soft –mixed –hard，会对working tree和index和HEAD进行重置:
     git reset –mixed：此为默认方式，不带任何参数的git reset，即时这种方式，它回退到某个版本，只保留源码，回退commit和index信息
     git reset –soft：回退到某个版本，只回退了commit的信息，不会恢复到index file一级。如果还要提交，直接commit即可
     git reset –hard：彻底回退到某个版本，本地的源码也会变为上一个版本的内容
-
+    
+$ git reset --hard <commit_id> 与 git push origin HEAD --force 合用，彻底回退到某个版本并提交服务器（删除指定版本）
 
 #分支与标签
 $ git branch #显示所有本地分支
