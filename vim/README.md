@@ -133,10 +133,10 @@ inoremap { {}<LEFT>
 --* `CTRL+w+=/+/-`——处理窗格的大小  
 
 ###缓冲区文件
---* ｀:ls, :buffers ｀               列出所有缓冲区
---* ｀:bn[ext]   ｀                  下一个缓冲区
---* ｀:bp[revious]｀                 上一个缓冲区
---* ｀:b {number, expression}｀      跳转到指定缓冲区
+- ｀:ls, :buffers ｀               列出所有缓冲区
+- ｀:bn[ext]   ｀                  下一个缓冲区
+- ｀:bp[revious]｀                 上一个缓冲区
+- ｀:b {number, expression}｀      跳转到指定缓冲区
 
 ###宏
 在Normal模式下，按`qa`（q表示开始录制宏，宏的名字为a，也可以是b,c…）开始录制。  
