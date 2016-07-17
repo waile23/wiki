@@ -96,3 +96,5 @@ ssh -T git@github.com #测试是否配置成功
 http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
 
 http://www.ituring.com.cn/article/202419
+
+http://www.cnblogs.com/renkangke/archive/2013/05/31/conquerAndroid.html
