@@ -94,6 +94,29 @@ cn.pool.ntp.org是位于中国的公共NTP服务器，用来同步时间
 # uptime                 # 查看系统运行时间、用户数、负载
 # cat /proc/loadavg      # 查看系统负载
 ```
+
+##CPU和内存
+```
+# 总核数 = 物理CPU个数 X 每颗物理CPU的核数 
+# 总逻辑CPU数 = 物理CPU个数 X 每颗物理CPU的核数 X 超线程数
+
+# 查看物理CPU个数
+cat /proc/cpuinfo| grep "physical id"| sort| uniq| wc -l
+
+# 查看每个物理CPU中core的个数(即核数)
+cat /proc/cpuinfo| grep "cpu cores"| uniq
+
+# 查看逻辑CPU的个数
+cat /proc/cpuinfo| grep "processor"| wc -l
+复制代码
+ 查看CPU信息（型号）
+cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
+
+查看内 存信息
+# cat /proc/meminfo
+
+来源 http://www.cnblogs.com/emanlee/p/3587571.html
+```
 ##磁盘和分区
 ```
 # mount | column -t      # 查看挂接的分区状态
