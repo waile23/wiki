@@ -108,12 +108,12 @@ cat /proc/cpuinfo| grep "cpu cores"| uniq
 
 # 查看逻辑CPU的个数
 cat /proc/cpuinfo| grep "processor"| wc -l
-复制代码
- 查看CPU信息（型号）
+
+#查看CPU信息（型号）
 cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
 
-查看内 存信息
-# cat /proc/meminfo
+#查看内存信息
+cat /proc/meminfo
 
 来源 http://www.cnblogs.com/emanlee/p/3587571.html
 ```
