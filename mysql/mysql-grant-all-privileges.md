@@ -41,6 +41,15 @@ FLUSH   PRIVILEGES;
 这样就可以在其它任何的主机上以root身份登录啦！
 
 
+撤销已经赋予给 MySQL 用户权限的权限。 
+
+revoke 跟 grant 的语法差不多，只需要把关键字 “to” 换成 “from” 即可： 
+```
+grant all on *.* to dba@localhost; 
+
+revoke all on *.* from dba@localhost;
+```
+
 ##说明
 
 SQL服务器模式
