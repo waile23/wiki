@@ -38,9 +38,9 @@ $ git mv <old> <new> #重命名文件（先删除旧文件，再添加新文件�
 #日志
 $ git log --oneline --stat #查看日志，可以查看文件列表 显示每次更新的修改文件的统计信息
 $ git log -p #按补丁显示每个更新间的差异
+$ git log -g/git reflog  #可以查看所有的历史操作记录，如果通过git reset --hard 把记录回滚了，可以通过该命令查看历史操作，再通过git reset恢复
 
 #撤消和重做
-
 $ git checkout HEAD <file> #撤消指定的未提交(已修改，已暂存)文件的修改内容，即保证工作目录中的状态与已提交状态一致。
 $ git revert <commit> #回滚至指定的提交(还没弄明白)
 
