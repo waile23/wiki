@@ -19,6 +19,9 @@
 - [sed](sed.md)
 - [awk](awk.md)
 
+## Redhat
+- [redhat常用](redhat/redhat-common.md)
+- [配置](redhat/redhat-config.md)
 
 ##常见问题
 
