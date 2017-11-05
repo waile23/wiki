@@ -11,9 +11,10 @@
 - 安装node-sass
 `
 # 设置本地代理
+```
 npm config set proxy http://127.0.0.1:1080
 npm i node-sass
 
 # 下载完成后删除 http 代理
 npm config delete proxy
-`
+```
