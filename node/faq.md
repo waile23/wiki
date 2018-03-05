@@ -18,3 +18,5 @@ npm i node-sass
 # 下载完成后删除 http 代理
 npm config delete proxy
 ```
+- windows下安装编译工具 Visual C++ Build Tools
+`npm install --global --production windows-build-tools`
